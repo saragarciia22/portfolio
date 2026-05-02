@@ -1,539 +1,834 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/2be0cdd367.js" crossorigin="anonymous"></script>
-</head>
-<body>
-</section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/2be0cdd367.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
-        <nav id="navbar">
-             <div class="logo" id="logo">    </div>
-            <ul class="nav-links">
-                <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#herramientas">Herramientas</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#formacion">Formacion</a></li>
-            </ul>
-        </nav>
+      <nav id="navbar">
+        <div class="logo" id="logo"></div>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#herramientas">Herramientas</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#formacion">Formacion</a></li>
+        </ul>
+      </nav>
     </header>
+
+    <!-- Overlay menú móvil -->
+    <div class="nav-overlay" id="navOverlay"></div>
+
     <main>
-
-        <section id="sobremi" class="hero">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Sara García</h1>
-                    <h2>Especialista en Marketing Digital y Publicidad</h2>
-                    <p>Soy especialista en marketing y publicidad con experiencia en estrategias digitales, branding y campañas creativas.
-                    Me apasiona transformar ideas en resultados medibles, conectando marcas con sus audiencias de manera efectiva y creativa.</p>
-                    <h3>Técnica Superior en Marketing y Publicidad | Creadora de Contenido RRSS | Optimización SEO | Desarrollo de IA Generativa | Creación y Diseño Web </h3>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/saragarcialopez2004/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="https://github.com/saragarciia22" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                    <a href="mailto:saragarcialopez2004@gmail.com?subject=contacto" class="btn">Contáctame</a>
-                    <a href="Currículum Sara García (1).pdf" class="btn" target="_blank">Curriculum</a>
-                </div>
-                <div class="hero-image">
-                    <img src="IMG-20251028-WA0078.jpg" alt="profile image">
-                </div>
-            </div>
-        </section>
-
-        <section id="experiencia" class="experiencia">
-            <h2 class="section-title">Experiencia Laboral</h2>
-             <div class="otw-badge-wrapper">
-    <div class="otw-badge">
-      <span class="otw-dot"></span>
-      <span class="otw-text">Disponible para trabajar</span>
-    </div>
-  </div>
-            <div class="timeline">
-                <div class="timeline-item actual">
-                    <div class="timeline-content">
-                        <span class="date">Abril 2026 – Actualidad</span>
-                        <h3>Coordinadora de Relación con Clientes</h3>
-                        <h4>Leroy Merlin</h4>
-                        <p>Coordinación del equipo de atención al cliente en tienda, garantizando un servicio ágil y de calidad. Gestión de incidencias, devoluciones y reclamaciones, asegurando una resolución eficaz y orientada al cliente. Supervisión de flujos en cajas y servicios, optimizando tiempos de espera y mejorando la experiencia del cliente. Análisis de la satisfacción del cliente y detección de oportunidades de mejora en los procesos de atención. Implementación de acciones para mejorar la experiencia del cliente en tienda. Apoyo en la organización de turnos y coordinación operativa del equipo.</p>
-                    </div>
-                </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <span class="date">Marzo 2026 - Abril 2026</span>
-                        <h3>Practicas como Especialista en Marketing Digital</h3>
-                        <h4>Empresa Eccuo Digital</h4>
-                        <p>Planificación de calendarios de marketing para distintas marcas.Gestión de campañas de email marketing.Creación de contenido para redes sociales.Optimización SEO de contenidos y páginas web.Análisis de páginas web y detección de mejoras.Apoyo en estructura web y organización de contenidos.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <span class="date">Abril 2026 - Abril 2026</span>
-                        <h3>Dependienta de tienda</h3>
-                        <h4>Mango</h4>
-                        <p>Durante mi experiencia en Mango trabajé como dependienta realizando atención al cliente, asesoramiento de moda. También me encargué de la reposición de planta y organización de almacén, además de colaborar en tareas de visual merchandising siguiendo los estándares de imagen de la marca.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <span class="date">Febrero 2025 - Marzo 2025</span>
-                        <h3>Practicas como Especialista en Marketing Digital</h3>
-                        <h4>Empresa Eccuo Digital</h4>
-                        <p>Monitorización y optimización SEO basada en análisis de volumen de búsqueda.Identificación de oportunidades de mejora para aumentar la visibilidad web.Creación de contenido digital (posts para redes sociales).Diseño de banners para tiendas online.Desarrollo de estructuras web y organización de menús.Mejora de la arquitectura web orientada a la experiencia de usuario (UX).Detección y análisis de problemas en páginas web.Propuesta de soluciones para optimizar rendimiento y usabilidad.</p>
-                        <a href="Carta Recomendación Sara García.pdf" class="btn"target="_blank">Carta de recomendación</a>
-                    </div>
-                </div>
-                 <div class="timeline-item">
-                    <div class="timeline-content">
-                        <span class="date">Marzo 2024 - Junio 2024</span>
-                        <h3>Prácticas en Retail & Visual Merchandising</h3>
-                        <h4>Primark</h4>
-                        <p>Experiencia en atención al cliente, resolución de incidencias y gestión en zonas de alta afluencia, así como en control de stock, reposición y organización de almacén. También participé en el montaje y actualización de escaparates aplicando técnicas de visual merchandising, y en la colocación estratégica de producto para maximizar ventas mediante criterios de zonas calientes, cross-selling visual y señalética</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- HERRAMIENTAS -->
-<section id="herramientas" class="herramientas">
-    <h2 class="section-title">Herramientas</h2>
-
-    <!-- SEO & Analítica -->
-    <div class="tools-category">
-        <div class="tools-category-title">SEO & Analítica</div>
-        <div class="tools-grid">
-            <div class="tool-item">
-              <img src="69785c84b3af49c30414b44b_SE-ranking-logo.png" alt="Canva" class="tool-img">
-              <div class="tool-name">SE Ranking</div>
-</div>
-            <div class="tool-item">
-              <img src="google_analytics_image_logo_icon_168152.webp" alt="Canva" class="tool-img">
-              <div class="tool-name">Google Analytics</div>
-</div>
-<div class="tool-item">
-              <img src="Google_Ads_icon.svg.png" alt="Canva" class="tool-img">
-              <div class="tool-name">Google ADS</div>
-</div>
-<div class="tool-item">
-              <img src="Copilot_20260423_151458.png" alt="Canva" class="tool-img">
-              <div class="tool-name">DelSol CRM</div>
-</div>
-        </div>
-    </div>
-
-    <!-- Redes Sociales & Contenido -->
-    <div class="tools-category">
-        <div class="tools-category-title">Redes Sociales & Contenido</div>
-        <div class="tools-grid">
-           <div class="tool-item">
-              <img src="icon-256x256.png" alt="Canva" class="tool-img">
-              <div class="tool-name">Metricool</div>
-</div>
- <div class="tool-item">
-              <img src="canva-icon.svg" alt="Canva" class="tool-img">
-              <div class="tool-name">Canva</div>
-</div>
- <div class="tool-item">
-              <img src="Capcut-icon.svg.png" alt="Canva" class="tool-img">
-              <div class="tool-name">CapCut</div>
-</div>
-        </div>
-    </div>
-
-    <!-- Diseño & Creatividad -->
-    <div class="tools-category">
-        <div class="tools-category-title">Diseño & Creatividad</div>
-        <div class="tools-grid">
-             <div class="tool-item">
-              <img src="Adobe_Illustrator_CC_icon.svg.png" alt="Canva" class="tool-img">
-              <div class="tool-name">Adobe Illustrator</div>
-</div>
-             <div class="tool-item">
-              <img src="Adobe_Photoshop_CC_icon.svg.png" alt="Canva" class="tool-img">
-              <div class="tool-name">Adobe Photoshop</div>
-</div>
-             <div class="tool-item">
-              <img src="Adobe_InDesign_CC_icon.svg.png" alt="Canva" class="tool-img">
-              <div class="tool-name">Adobe InDesing</div>
-</div>
- <div class="tool-item">
-              <img src="Adobe_Photoshop_Lightroom_CC_logo.svg.png" alt="Canva" class="tool-img">
-              <div class="tool-name">Adobe Lightroom</div>
-</div>
- <div class="tool-item">
-              <img src="Adobe_Premiere_Pro_CC_icon.svg.png" alt="Canva" class="tool-img">
-              <div class="tool-name">Adobe Premiere</div>
-</div>
-</div>
-    </div>
-
-    <!-- Inteligencia Artificial -->
-    <div class="tools-category">
-        <div class="tools-category-title">Inteligencia Artificial</div>
-        <div class="tools-grid">
-            <div class="tool-item">
-              <img src="copilot-icon.webp" alt="Copilot" class="tool-img">
-              <div class="tool-name">Copilot</div>
-</div>
-            <div class="tool-item">
-              <img src="chatgpt-icon.webp" alt="Canva" class="tool-img">
-              <div class="tool-name">Chat GPT</div>
-</div>
- <div class="tool-item">
-              <img src="claude-ai-icon.webp" alt="Canva" class="tool-img">
-              <div class="tool-name">Claude</div>
-</div>
-        </div>
-    </div>
-  <div class="tools-category">
-        <div class="tools-category-title">Desarrollo Web</div>
-        <div class="tools-grid">
-           <div class="tool-item">
-              <img src="WordPress_blue_logo.svg.png" alt="Canva" class="tool-img">
-              <div class="tool-name">WordPress</div>
-</div>
- <div class="tool-item">
-              <img src="Prestashop.svg.png" alt="Canva" class="tool-img">
-              <div class="tool-name">PrestaShop</div>
-</div>
- <div class="tool-item">
-              <img src="Visual_Studio_Code_1.35_icon.svg.png" alt="Canva" class="tool-img">
-              <div class="tool-name">VSCode / HTML y CSS Nivel Básico</div>
-</div>
-</section>
-        <section id="proyectos" class="projects">
-            <h2 class="section-title">Proyectos Personales</h2>
-            <div class="projects-container">
-                <div class="projects-card">
-                    <div class="project-img">
-                        <img src="folleto flora (1).svg" alt="proyecto 1">
-                    </div>
-                    <div class="project-info">
-                        <h3>Cartel Festival . Adobe Illustrator</h3>
-                        <p>Diseñé un cartel A3 listo para impresión usando Illustrator y Photoshop, con tintas planas y sin CMYK.
-Apliqué composición y tipografía coherente, vectorizando elementos para asegurar calidad y escalabilidad.</p>
-                        <button class="btn open-modal-btn">Ver proyecto →</button>
-                    </div>
-                </div>
-                <div class="projects-card">
-                    <div class="project-img">
-                        <img src="Cream and Grey Elegant Aesthetic Minimal Brand Board A4 Document.png" alt="proyecto 1">
-                    </div>
-                    <div class="project-info">
-                        <h3>Manual Identidad Coorporativa . Canva , Freepik , Adobe Photoshop</h3>
-                        <p>Desarrollé un manual de identidad definiendo personalidad, logotipo, colores y tipografías.
-Establecí normas de uso y aplicaciones para garantizar consistencia de marca.</p>
-                        <button class="btn open-modal-btn">Ver proyecto →</button>
-                    </div>
-                </div>
-                <div class="projects-card">
-                    <div class="project-img">
-                        <img src="flyer vertical cartel poster promocion donuts divertido colorido rosa.png" alt="proyecto 1">
-                    </div>
-                    <div class="project-info">
-                        <h3>Cartel promocional . Canva</h3>
-                        <p>Creé un cartel promocional en Canva aplicando composición y jerarquía visual.
-Optimicé tipografía, color y disposición para un resultado claro, atractivo y listo para impresión.</p>
-                        <button class="btn open-modal-btn">Ver proyecto →</button>
-                    </div>
-                </div>
-                 <div class="projects-card">
-                    <div class="project-img">
-                        <img src="all natural.png" alt="proyecto 1">
-                    </div>
-                    <div class="project-info">
-                        <h3>Packaging . Canva</h3>
-                        <p>Diseñé un packaging desde cero incluyendo identidad visual, ingredientes y etiquetado.
-Seguí un manual corporativo para lograr coherencia y un acabado profesional.</p>
-                        <button class="btn open-modal-btn">Ver proyecto →</button>
-                    </div>
-                    
-                </div> <div class="projects-card">
-                    <div class="project-img">
-                        <img src="TARJETA EMPRESA_Mesa de trabajo 1.svg" alt="proyecto 1">
-                    </div>
-                    <div class="project-info">
-                        <h3>Diseño de tarjetas de visita corporativas . Adobe Illustrator</h3>
-                        <p>Diseñé tarjetas a doble cara en Illustrator siguiendo principios de diseño y un manual de identidad visual.
-Trabajé en formato 85×55 mm en CMYK con sangrado y vectorización para impresión profesional.</p>
-                      <button class="btn open-modal-btn">Ver proyecto →</button>
-                    </div>
-                </div><div class="projects-card">
-                    <div class="project-img">
-                        <img src="Banner Horizontal Moda Moderno Blanco y Beige.png" alt="proyecto 1">
-                    </div>
-                    <div class="project-info">
-                        <h3>Banner . Canva, Adobe Photoshop</h3>
-                        <p>Diseñé un banner destacando la información con jerarquía visual y coherencia de marca.
-Optimicé legibilidad e impacto visual para mejorar la experiencia del usuario.</p>
-                        <button class="btn open-modal-btn">Ver proyecto →</button>
-                    </div>
-                     </div><div class="projects-card">
-                    <div class="project-img">
-                        <img src="1.png" alt="proyecto 1">
-                    </div>
-                    <div class="project-info">
-                        <h3>Logotipo Marca . Canva, Adobe Illustrator</h3>
-                        <p>Diseñé un logotipo desde cero aplicando principios de simplicidad y legibilidad.
-Lo desarrollé en vector para asegurar escalabilidad y coherencia visual.</p>
-                        <button class="btn open-modal-btn">Ver proyecto →</button>
-                    </div>
-                     </div><div class="projects-card">
-                    <div class="project-img">
-                        <img src="Inicio.png" alt="proyecto 1">
-                    </div>
-                    <div class="project-info">
-                        <h3>Diseño Sitio Web landing page . Canva</h3>
-                        <p>Diseñé una landing page centrada en usabilidad y jerarquía visual.
-Definí una estructura clara y coherente como base para su desarrollo web.</p>
-                        <button class="btn open-modal-btn">Ver proyecto →</button>
-                    </div>
-            </div> 
-        </section>
-        <section id="formacion" class="formacion">
-    <h2 class="section-title">Formación</h2>
-
-    <!-- GRADO SUPERIOR -->
-    <div class="formacion-categoria">
-        <h3 class="formacion-categoria-title">Grado Superior</h3>
-        <div class="formacion-grid">
-
-            <div class="formacion-card">
-                <i class="fa-solid fa-book"></i>
-                <div class="formacion-info">
-                    <span class="formacion-badge">Grado Superior</span>
-                    <h4>Técnico Superior en Marketing y Publicidad</h4>
-                    <p class="formacion-centro">IES Góngora</p>
-                    <p class="formacion-fecha">Sep. 2024 – Jun. 2026</p>
-                    <p class="formacion-desc">Estrategias de marketing digital, creación de contenido publicitario, SEO, redes sociales, diseño gráfico y análisis de mercado.</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- GRADOS MEDIOS -->
-    <div class="formacion-categoria">
-        <h3 class="formacion-categoria-title">Grados Medios</h3>
-        <div class="formacion-grid">
-
-            <div class="formacion-card">
-                <i class="fa-solid fa-book"></i>
-                <div class="formacion-info">
-                    <span class="formacion-badge">Grado Medio</span>
-                    <h4>Técnico en Actividades Comerciales</h4>
-                    <p class="formacion-centro">IES Góngora</p>
-                    <p class="formacion-fecha">Sept. 2022 – Jun. 2024</p>
-                    <p class="formacion-desc">Técnicas de venta, atención al cliente, visual merchandising y gestión del punto de venta.</p>
-                </div>
-            </div>
-
-            <div class="formacion-card">
-                <i class="fa-solid fa-book"></i>
-                <div class="formacion-info">
-                    <span class="formacion-badge">Grado Medio</span>
-                    <h4>Gestión Administrativa</h4>
-                    <p class="formacion-centro">Zalima</p>
-                    <p class="formacion-fecha">Sept. 2020 – Jun. 2021</p>
-                    <p class="formacion-desc">Gestión de documentación, atención al cliente, herramientas ofimáticas y procesos administrativos.</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- CERTIFICADOS Y CURSOS -->
-    <div class="formacion-categoria">
-        <h3 class="formacion-categoria-title">Certificados & Cursos</h3>
-        <div class="formacion-grid">
-
-            <div class="formacion-card formacion-card--cert">
-                <i class="fa-solid fa-medal"></i>
-                <div class="formacion-info">
-                    <span class="formacion-badge formacion-badge--cert">Certificado</span>
-                    <h4>Claude 101</h4>
-                    <p class="formacion-centro">Anthropic</p>
-                    <p class="formacion-fecha">Abr. 2026</p>
-                    <p class="formacion-desc">IA Generativa, Modelos de Lenguaje de Gran Tamaño (LLM) y prompt engineering.</p>
-                </div>
-            </div>
-
-            <div class="formacion-card formacion-card--cert">
-                <i class="fa-solid fa-medal"></i>
-                <div class="formacion-info">
-                    <span class="formacion-badge formacion-badge--cert">Certificado</span>
-                    <h4>Certificación de Google Analytics</h4>
-                    <p class="formacion-centro">Google Digital Academy · Skillshop</p>
-                    <p class="formacion-fecha">Mar. 2026 · Vence mar. 2027</p>
-                    <p class="formacion-desc">Google Analytics, SEO y análisis de datos web.</p>
-                </div>
-            </div>
-
-            <div class="formacion-card formacion-card--cert">
-                <i class="fa-solid fa-medal"></i>
-                <div class="formacion-info">
-                    <span class="formacion-badge formacion-badge--cert">Certificado</span>
-                    <h4>Comercio Electrónico</h4>
-                    <p class="formacion-centro">Google Actívate</p>
-                    <p class="formacion-fecha">Jun. 2025</p>
-                    <p class="formacion-desc">Comercio electrónico y email marketing.</p>
-                </div>
-            </div>
-
-            <div class="formacion-card formacion-card--curso">
-                <i class="fa-solid fa-laptop"></i>
-                <div class="formacion-info">
-                    <span class="formacion-badge formacion-badge--curso">Curso</span>
-                    <h4>Curso de WordPress</h4>
-                    <p class="formacion-centro">Edutin Academy</p>
-                    <p class="formacion-fecha">Abr. 2026</p>
-                    <p class="formacion-desc">Creación, diseño, gestión y optimización de sitios web profesionales desde cero.</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-</section>
-    </main>
-    <section class="signature-section">
-  <div class="signature-container">
-    
-    <p class="signature-line">
-      Este portfolio ha sido creado desde cero con
-    </p>
-
-    <div class="code-tags">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-    </div>
-
-    <p class="signature-autor">
-      Diseñado y desarrollado por <span>Sara García</span>
-    </p>
-  </div>
-</section>
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2026 Sara García - Todos los derechos reservados </p>
+      <section id="sobremi" class="hero">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Sara García</h1>
+            <h2>Especialista en Marketing Digital y Publicidad</h2>
+            <p>
+              Soy especialista en marketing y publicidad con experiencia en
+              estrategias digitales, branding y campañas creativas. Me apasiona
+              transformar ideas en resultados medibles, conectando marcas con
+              sus audiencias de manera efectiva y creativa.
+            </p>
+            <h3>
+              Técnica Superior en Marketing y Publicidad | Creadora de Contenido
+              RRSS | Optimización SEO | Desarrollo de IA Generativa | Creación y
+              Diseño Web
+            </h3>
             <div class="social-links">
-                        <a href="https://www.linkedin.com/in/saragarcialopez2004/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="https://github.com/saragarciia22" target="_blank"><i class="fa-brands fa-github"></i></a>                  
-                    </div>
+              <a
+                href="https://www.linkedin.com/in/saragarcialopez2004/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="https://github.com/saragarciia22" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a
+              href="mailto:saragarcialopez2004@gmail.com?subject=contacto"
+              class="btn"
+              >Contáctame</a
+            >
+            <a
+              href="assets/docs/Currículum Sara García (1).pdf"
+              class="btn"
+              target="_blank"
+              >Curriculum</a
+            >
+          </div>
+          <div class="hero-image">
+            <img src="assets/img/IMG-20251028-WA0078.jpg" alt="profile image" />
+          </div>
         </div>
+      </section>
+
+      <section id="experiencia" class="experiencia">
+        <h2 class="section-title">Experiencia Laboral</h2>
+        <div class="otw-badge-wrapper">
+          <div class="otw-badge">
+            <span class="otw-dot"></span>
+            <span class="otw-text">Disponible para trabajar</span>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item actual">
+            <div class="timeline-content">
+              <span class="date">Abril 2026 – Actualidad</span>
+              <h3>Coordinadora de Relación con Clientes</h3>
+              <h4>Leroy Merlin</h4>
+              <p>
+                Coordinación del equipo de atención al cliente en tienda,
+                garantizando un servicio ágil y de calidad. Gestión de
+                incidencias, devoluciones y reclamaciones, asegurando una
+                resolución eficaz y orientada al cliente. Supervisión de flujos
+                en cajas y servicios, optimizando tiempos de espera y mejorando
+                la experiencia del cliente. Análisis de la satisfacción del
+                cliente y detección de oportunidades de mejora en los procesos
+                de atención. Implementación de acciones para mejorar la
+                experiencia del cliente en tienda. Apoyo en la organización de
+                turnos y coordinación operativa del equipo.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <span class="date">Marzo 2026 - Abril 2026</span>
+              <h3>Practicas como Especialista en Marketing Digital</h3>
+              <h4>Empresa Eccuo Digital</h4>
+              <p>
+                Planificación de calendarios de marketing para distintas marcas.
+                Gestión de campañas de email marketing. Creación de contenido
+                para redes sociales. Optimización SEO de contenidos y páginas
+                web. Análisis de páginas web y detección de mejoras. Apoyo en
+                estructura web y organización de contenidos.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <span class="date">Abril 2026 - Abril 2026</span>
+              <h3>Dependienta de tienda</h3>
+              <h4>Mango</h4>
+              <p>
+                Durante mi experiencia en Mango trabajé como dependienta
+                realizando atención al cliente, asesoramiento de moda. También
+                me encargué de la reposición de planta y organización de
+                almacén, además de colaborar en tareas de visual merchandising
+                siguiendo los estándares de imagen de la marca.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <span class="date">Febrero 2025 - Marzo 2025</span>
+              <h3>Practicas como Especialista en Marketing Digital</h3>
+              <h4>Empresa Eccuo Digital</h4>
+              <p>
+                Monitorización y optimización SEO basada en análisis de volumen
+                de búsqueda. Identificación de oportunidades de mejora para
+                aumentar la visibilidad web. Creación de contenido digital
+                (posts para redes sociales). Diseño de banners para tiendas
+                online. Desarrollo de estructuras web y organización de menús.
+                Mejora de la arquitectura web orientada a la experiencia de
+                usuario (UX). Detección y análisis de problemas en páginas web.
+                Propuesta de soluciones para optimizar rendimiento y usabilidad.
+              </p>
+              <a
+                href="assets/docs/Carta Recomendación Sara García.pdf"
+                class="btn"
+                target="_blank"
+                >Carta de recomendación</a
+              >
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <span class="date">Marzo 2024 - Junio 2024</span>
+              <h3>Prácticas en Retail & Visual Merchandising</h3>
+              <h4>Primark</h4>
+              <p>
+                Experiencia en atención al cliente, resolución de incidencias y
+                gestión en zonas de alta afluencia, así como en control de
+                stock, reposición y organización de almacén. También participé
+                en el montaje y actualización de escaparates aplicando técnicas
+                de visual merchandising, y en la colocación estratégica de
+                producto para maximizar ventas mediante criterios de zonas
+                calientes, cross-selling visual y señalética.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- HERRAMIENTAS -->
+      <section id="herramientas" class="herramientas">
+        <h2 class="section-title">Herramientas</h2>
+
+        <!-- SEO & Analítica -->
+        <div class="tools-category">
+          <div class="tools-category-title">SEO & Analítica</div>
+          <div class="tools-grid">
+            <div class="tool-item">
+              <img
+                src="assets/logos/69785c84b3af49c30414b44b_SE-ranking-logo.png"
+                alt="SE Ranking"
+                class="tool-img"
+              />
+              <div class="tool-name">SE Ranking</div>
+            </div>
+            <div class="tool-item">
+              <img
+                src="assets/logos/google_analytics_image_logo_icon_168152.webp"
+                alt="Google Analytics"
+                class="tool-img"
+              />
+              <div class="tool-name">Google Analytics</div>
+            </div>
+            <div class="tool-item">
+              <img
+                src="assets/logos/Google_Ads_icon.svg.png"
+                alt="Google Ads"
+                class="tool-img"
+              />
+              <div class="tool-name">Google ADS</div>
+            </div>
+            <div class="tool-item">
+              <img
+                src="assets/logos/Copilot_20260423_151458.png"
+                alt="DelSol CRM"
+                class="tool-img"
+              />
+              <div class="tool-name">DelSol CRM</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Redes Sociales & Contenido -->
+        <div class="tools-category">
+          <div class="tools-category-title">Redes Sociales & Contenido</div>
+          <div class="tools-grid">
+            <div class="tool-item">
+              <img
+                src="assets/logos/icon-256x256.png"
+                alt="Metricool"
+                class="tool-img"
+              />
+              <div class="tool-name">Metricool</div>
+            </div>
+            <div class="tool-item">
+              <img
+                src="assets/logos/canva-icon.svg"
+                alt="Canva"
+                class="tool-img"
+              />
+              <div class="tool-name">Canva</div>
+            </div>
+            <div class="tool-item">
+              <img
+                src="assets/logos/Capcut-icon.svg.png"
+                alt="CapCut"
+                class="tool-img"
+              />
+              <div class="tool-name">CapCut</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Diseño & Creatividad -->
+        <div class="tools-category">
+          <div class="tools-category-title">Diseño & Creatividad</div>
+          <div class="tools-grid">
+            <div class="tool-item">
+              <img
+                src="assets/logos/Adobe_Illustrator_CC_icon.svg.png"
+                alt="Adobe Illustrator"
+                class="tool-img"
+              />
+              <div class="tool-name">Adobe Illustrator</div>
+            </div>
+            <div class="tool-item">
+              <img
+                src="assets/logos/Adobe_Photoshop_CC_icon.svg.png"
+                alt="Adobe Photoshop"
+                class="tool-img"
+              />
+              <div class="tool-name">Adobe Photoshop</div>
+            </div>
+            <div class="tool-item">
+              <img
+                src="assets/logos/Adobe_InDesign_CC_icon.svg.png"
+                alt="Adobe InDesign"
+                class="tool-img"
+              />
+              <div class="tool-name">Adobe InDesing</div>
+            </div>
+            <div class="tool-item">
+              <img
+                src="assets/logos/Adobe_Photoshop_Lightroom_CC_logo.svg.png"
+                alt="Adobe Lightroom"
+                class="tool-img"
+              />
+              <div class="tool-name">Adobe Lightroom</div>
+            </div>
+            <div class="tool-item">
+              <img
+                src="assets/logos/Adobe_Premiere_Pro_CC_icon.svg.png"
+                alt="Adobe Premiere"
+                class="tool-img"
+              />
+              <div class="tool-name">Adobe Premiere</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Inteligencia Artificial -->
+        <div class="tools-category">
+          <div class="tools-category-title">Inteligencia Artificial</div>
+          <div class="tools-grid">
+            <div class="tool-item">
+              <img
+                src="assets/logos/copilot-icon.webp"
+                alt="Copilot"
+                class="tool-img"
+              />
+              <div class="tool-name">Copilot</div>
+            </div>
+            <div class="tool-item">
+              <img
+                src="assets/logos/chatgpt-icon.webp"
+                alt="ChatGPT"
+                class="tool-img"
+              />
+              <div class="tool-name">Chat GPT</div>
+            </div>
+            <div class="tool-item">
+              <img
+                src="assets/logos/claude-ai-icon.webp"
+                alt="Claude"
+                class="tool-img"
+              />
+              <div class="tool-name">Claude</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desarrollo Web -->
+        <div class="tools-category">
+          <div class="tools-category-title">Desarrollo Web</div>
+          <div class="tools-grid">
+            <div class="tool-item">
+              <img
+                src="assets/logos/WordPress_blue_logo.svg.png"
+                alt="WordPress"
+                class="tool-img"
+              />
+              <div class="tool-name">WordPress</div>
+            </div>
+            <div class="tool-item">
+              <img
+                src="assets/logos/Prestashop.svg.png"
+                alt="PrestaShop"
+                class="tool-img"
+              />
+              <div class="tool-name">PrestaShop</div>
+            </div>
+            <div class="tool-item">
+              <img
+                src="assets/logos/Visual_Studio_Code_1.35_icon.svg.png"
+                alt="VSCode"
+                class="tool-img"
+              />
+              <div class="tool-name">VSCode / HTML y CSS Nivel Básico</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="projects">
+        <h2 class="section-title">Proyectos Personales</h2>
+        <div class="projects-container">
+          <div class="projects-card">
+            <div class="project-img">
+              <img src="assets/img/folleto flora (1).svg" alt="proyecto 1" />
+            </div>
+            <div class="project-info">
+              <h3>Cartel Festival . Adobe Illustrator</h3>
+              <p>
+                Diseñé un cartel A3 listo para impresión usando Illustrator y
+                Photoshop, con tintas planas y sin CMYK. Apliqué composición y
+                tipografía coherente, vectorizando elementos para asegurar
+                calidad y escalabilidad.
+              </p>
+              <button class="btn open-modal-btn">Ver proyecto →</button>
+            </div>
+          </div>
+          <div class="projects-card">
+            <div class="project-img">
+              <img
+                src="assets/img/Cream and Grey Elegant Aesthetic Minimal Brand Board A4 Document.png"
+                alt="proyecto 2"
+              />
+            </div>
+            <div class="project-info">
+              <h3>
+                Manual Identidad Coorporativa . Canva , Freepik , Adobe
+                Photoshop
+              </h3>
+              <p>
+                Desarrollé un manual de identidad definiendo personalidad,
+                logotipo, colores y tipografías. Establecí normas de uso y
+                aplicaciones para garantizar consistencia de marca.
+              </p>
+              <button class="btn open-modal-btn">Ver proyecto →</button>
+            </div>
+          </div>
+          <div class="projects-card">
+            <div class="project-img">
+              <img
+                src="assets/img/flyer vertical cartel poster promocion donuts divertido colorido rosa.png"
+                alt="proyecto 3"
+              />
+            </div>
+            <div class="project-info">
+              <h3>Cartel promocional . Canva</h3>
+              <p>
+                Creé un cartel promocional en Canva aplicando composición y
+                jerarquía visual. Optimicé tipografía, color y disposición para
+                un resultado claro, atractivo y listo para impresión.
+              </p>
+              <button class="btn open-modal-btn">Ver proyecto →</button>
+            </div>
+          </div>
+          <div class="projects-card">
+            <div class="project-img">
+              <img src="assets/img/all natural.png" alt="proyecto 4" />
+            </div>
+            <div class="project-info">
+              <h3>Packaging . Canva</h3>
+              <p>
+                Diseñé un packaging desde cero incluyendo identidad visual,
+                ingredientes y etiquetado. Seguí un manual corporativo para
+                lograr coherencia y un acabado profesional.
+              </p>
+              <button class="btn open-modal-btn">Ver proyecto →</button>
+            </div>
+          </div>
+          <div class="projects-card">
+            <div class="project-img">
+              <img
+                src="assets/img/TARJETA EMPRESA_Mesa de trabajo 1.svg"
+                alt="proyecto 5"
+              />
+            </div>
+            <div class="project-info">
+              <h3>
+                Diseño de tarjetas de visita corporativas . Adobe Illustrator
+              </h3>
+              <p>
+                Diseñé tarjetas a doble cara en Illustrator siguiendo principios
+                de diseño y un manual de identidad visual. Trabajé en formato
+                85×55 mm en CMYK con sangrado y vectorización para impresión
+                profesional.
+              </p>
+              <button class="btn open-modal-btn">Ver proyecto →</button>
+            </div>
+          </div>
+          <div class="projects-card">
+            <div class="project-img">
+              <img
+                src="assets/img/Banner Horizontal Moda Moderno Blanco y Beige.png"
+                alt="proyecto 6"
+              />
+            </div>
+            <div class="project-info">
+              <h3>Banner . Canva, Adobe Photoshop</h3>
+              <p>
+                Diseñé un banner destacando la información con jerarquía visual
+                y coherencia de marca. Optimicé legibilidad e impacto visual
+                para mejorar la experiencia del usuario.
+              </p>
+              <button class="btn open-modal-btn">Ver proyecto →</button>
+            </div>
+          </div>
+          <div class="projects-card">
+            <div class="project-img">
+              <img src="assets/img/1.png" alt="proyecto 7" />
+            </div>
+            <div class="project-info">
+              <h3>Logotipo Marca . Canva, Adobe Illustrator</h3>
+              <p>
+                Diseñé un logotipo desde cero aplicando principios de
+                simplicidad y legibilidad. Lo desarrollé en vector para asegurar
+                escalabilidad y coherencia visual.
+              </p>
+              <button class="btn open-modal-btn">Ver proyecto →</button>
+            </div>
+          </div>
+          <div class="projects-card">
+            <div class="project-img">
+              <img src="assets/img/Inicio.png" alt="proyecto 8" />
+            </div>
+            <div class="project-info">
+              <h3>Diseño Sitio Web landing page . Canva</h3>
+              <p>
+                Diseñé una landing page centrada en usabilidad y jerarquía
+                visual. Definí una estructura clara y coherente como base para
+                su desarrollo web.
+              </p>
+              <button class="btn open-modal-btn">Ver proyecto →</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="formacion" class="formacion">
+        <h2 class="section-title">Formación</h2>
+
+        <!-- GRADO SUPERIOR -->
+        <div class="formacion-categoria">
+          <h3 class="formacion-categoria-title">Grado Superior</h3>
+          <div class="formacion-grid">
+            <div class="formacion-card">
+              <i class="fa-solid fa-book"></i>
+              <div class="formacion-info">
+                <span class="formacion-badge">Grado Superior</span>
+                <h4>Técnico Superior en Marketing y Publicidad</h4>
+                <p class="formacion-centro">IES Góngora</p>
+                <p class="formacion-fecha">Sep. 2024 – Jun. 2026</p>
+                <p class="formacion-desc">
+                  Estrategias de marketing digital, creación de contenido
+                  publicitario, SEO, redes sociales, diseño gráfico y análisis
+                  de mercado.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- GRADOS MEDIOS -->
+        <div class="formacion-categoria">
+          <h3 class="formacion-categoria-title">Grados Medios</h3>
+          <div class="formacion-grid">
+            <div class="formacion-card">
+              <i class="fa-solid fa-book"></i>
+              <div class="formacion-info">
+                <span class="formacion-badge">Grado Medio</span>
+                <h4>Técnico en Actividades Comerciales</h4>
+                <p class="formacion-centro">IES Góngora</p>
+                <p class="formacion-fecha">Sept. 2022 – Jun. 2024</p>
+                <p class="formacion-desc">
+                  Técnicas de venta, atención al cliente, visual merchandising y
+                  gestión del punto de venta.
+                </p>
+              </div>
+            </div>
+            <div class="formacion-card">
+              <i class="fa-solid fa-book"></i>
+              <div class="formacion-info">
+                <span class="formacion-badge">Grado Medio</span>
+                <h4>Gestión Administrativa</h4>
+                <p class="formacion-centro">Zalima</p>
+                <p class="formacion-fecha">Sept. 2020 – Jun. 2021</p>
+                <p class="formacion-desc">
+                  Gestión de documentación, atención al cliente, herramientas
+                  ofimáticas y procesos administrativos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CERTIFICADOS Y CURSOS -->
+        <div class="formacion-categoria">
+          <h3 class="formacion-categoria-title">Certificados & Cursos</h3>
+          <div class="formacion-grid">
+            <div class="formacion-card formacion-card--cert">
+              <i class="fa-solid fa-medal"></i>
+              <div class="formacion-info">
+                <span class="formacion-badge formacion-badge--cert"
+                  >Certificado</span
+                >
+                <h4>Claude 101</h4>
+                <p class="formacion-centro">Anthropic</p>
+                <p class="formacion-fecha">Abr. 2026</p>
+                <p class="formacion-desc">
+                  IA Generativa, Modelos de Lenguaje de Gran Tamaño (LLM) y
+                  prompt engineering.
+                </p>
+              </div>
+            </div>
+            <div class="formacion-card formacion-card--cert">
+              <i class="fa-solid fa-medal"></i>
+              <div class="formacion-info">
+                <span class="formacion-badge formacion-badge--cert"
+                  >Certificado</span
+                >
+                <h4>Certificación de Google Analytics</h4>
+                <p class="formacion-centro">
+                  Google Digital Academy · Skillshop
+                </p>
+                <p class="formacion-fecha">Mar. 2026 · Vence mar. 2027</p>
+                <p class="formacion-desc">
+                  Google Analytics, SEO y análisis de datos web.
+                </p>
+              </div>
+            </div>
+            <div class="formacion-card formacion-card--cert">
+              <i class="fa-solid fa-medal"></i>
+              <div class="formacion-info">
+                <span class="formacion-badge formacion-badge--cert"
+                  >Certificado</span
+                >
+                <h4>Comercio Electrónico</h4>
+                <p class="formacion-centro">Google Actívate</p>
+                <p class="formacion-fecha">Jun. 2025</p>
+                <p class="formacion-desc">
+                  Comercio electrónico y email marketing.
+                </p>
+              </div>
+            </div>
+            <div class="formacion-card formacion-card--curso">
+              <i class="fa-solid fa-laptop"></i>
+              <div class="formacion-info">
+                <span class="formacion-badge formacion-badge--curso"
+                  >Curso</span
+                >
+                <h4>Curso de WordPress</h4>
+                <p class="formacion-centro">Edutin Academy</p>
+                <p class="formacion-fecha">Abr. 2026</p>
+                <p class="formacion-desc">
+                  Creación, diseño, gestión y optimización de sitios web
+                  profesionales desde cero.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="signature-section">
+      <div class="signature-container">
+        <p class="signature-line">
+          Este portfolio ha sido creado desde cero con
+        </p>
+        <div class="code-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+        <p class="signature-autor">
+          Diseñado y desarrollado por <span>Sara García</span>
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2026 Sara García - Todos los derechos reservados</p>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/saragarcialopez2004/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/saragarciia22" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
     </footer>
+
     <!-- MODAL -->
-<div class="modal-overlay" id="modalOverlay">
-    <div class="modal-wrapper">
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal-wrapper">
         <button class="modal-close" id="modalClose">✕</button>
         <div class="modal">
-            <img class="modal-img" id="modalImg" src="" alt="">
-            <div class="modal-body">
-                <h2 id="modalTitle"></h2>
-                <p id="modalDesc"></p>
-                <div class="modal-tools-label">Herramientas utilizadas</div>
-                <div class="modal-tools" id="modalTools"></div>
-            </div>
+          <img class="modal-img" id="modalImg" src="" alt="" />
+          <div class="modal-body">
+            <h2 id="modalTitle"></h2>
+            <p id="modalDesc"></p>
+            <div class="modal-tools-label">Herramientas utilizadas</div>
+            <div class="modal-tools" id="modalTools"></div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+
     <script>
-// Script logo/navbar (el que ya tenías)
-const heroTitle = document.querySelector("#sobremi h1");
-const logo = document.getElementById("logo");
+      // ── LOGO / NAVBAR ──
+      const heroTitle = document.querySelector("#sobremi h1");
+      const logo = document.getElementById("logo");
 
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach(entry => {
-      if (!entry.isIntersecting) {
-        logo.classList.add("active");
-      } else {
-        logo.classList.remove("active");
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) {
+              logo.classList.add("active");
+            } else {
+              logo.classList.remove("active");
+            }
+          });
+        },
+        { threshold: 0 },
+      );
+
+      observer.observe(heroTitle);
+
+      logo.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      // ── MENÚ HAMBURGUESA ──
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("navLinks");
+      const navOverlay = document.getElementById("navOverlay");
+
+      function setMenuPosition() {
+        const headerHeight = document
+          .querySelector("header")
+          .getBoundingClientRect().height;
+        navLinks.style.top = headerHeight + "px";
+        navLinks.style.height = "calc(100vh - " + headerHeight + "px)";
       }
-    });
-  },
-  { threshold: 0 }
-);
 
-observer.observe(heroTitle);
-logo.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-});
+      // Calcular al cargar y al redimensionar
+      setMenuPosition();
+      window.addEventListener("resize", setMenuPosition);
 
-// ── MODAL ──
-const modalData = [
-    {
-        img: "folleto flora (1).svg",
-        title: "Cartel Festival · Adobe Illustrator",
-        desc: "Diseñé un cartel publicitario en formato A3 con Adobe Illustrator y Adobe Photoshop, preparado para impresión (300 ppp, sangrado y márgenes), utilizando imágenes libres de derechos. Trabajé con un máximo de tres tintas planas, sin uso de CMYK, aplicando principios de composición y coherencia tipográfica.",
-        tools: ["Adobe Illustrator", "Adobe Photoshop", "Impresión A3", "Tintas planas"]
-    },
-    {
-        img: "TARJETA EMPRESA_Mesa de trabajo 1.svg",
-        title: "Tarjetas de Visita Corporativas · Adobe Illustrator",
-        desc: "Diseñé en Adobe Illustrator tarjetas de visita a doble cara, aplicando los principios de contraste, repetición, proximidad y alineación, siguiendo un manual de identidad visual. Formato estándar 85×55mm en CMYK, con sangrado, márgenes y retícula para impresión profesional.",
-        tools: ["Adobe Illustrator", "CMYK", "Formato 85×55mm", "Identidad visual"]
-    },
-    {
-        img: "flyer vertical cartel poster promocion donuts divertido colorido rosa.png",
-        title: "Cartel Promocional · Canva",
-        desc: "Diseñé un cartel promocional utilizando Canva, aplicando principios básicos de composición y jerarquía visual para crear una pieza clara y atractiva. Adapté el diseño a formato de impresión, cuidando la disposición de los elementos, la tipografía y el uso del color.",
-        tools: ["Canva", "Composición visual", "Jerarquía tipográfica"]
-    },
-    {
-        img: "all natural.png",
-        title: "Packaging · Canva",
-        desc: "Diseñé el packaging de una marca desde cero, definiendo identidad visual, ingredientes y etiquetado, siguiendo un manual corporativo para asegurar coherencia en colores, tipografía y estilo.",
-        tools: ["Canva", "Identidad de marca", "Etiquetado", "Manual corporativo"]
-    },
-    {
-        img: "Cream and Grey Elegant Aesthetic Minimal Brand Board A4 Document.png",
-        title: "Manual Identidad Corporativa · Canva · Freepik · Photoshop",
-        desc: "Desarrollé una propuesta de manual de identidad corporativa para una marca, definiendo su personalidad, valores y tono de comunicación. Creé el logotipo y sus variantes, establecí una paleta de colores corporativos y seleccioné tipografías coherentes.",
-        tools: ["Canva", "Freepik", "Adobe Photoshop", "Branding"]
-    },
-    {
-        img: "Banner Horizontal Moda Moderno Blanco y Beige.png",
-        title: "Banner · Canva · Adobe Photoshop",
-        desc: "Diseñé un banner para una tienda digital, aplicando principios de composición visual y jerarquía tipográfica. Mantuve coherencia con la identidad visual de la marca respetando su paleta de colores corporativos.",
-        tools: ["Canva", "Adobe Photoshop", "Diseño digital", "Branding"]
-    },
-    {
-        img: "1.png",
-        title: "Logotipo de Marca · Canva · Adobe Illustrator",
-        desc: "Diseñé el logotipo para mi TFG desarrollando una identidad visual desde cero, aplicando principios de simplicidad, equilibrio y legibilidad. Construido en formato vectorial para garantizar escalabilidad en distintos soportes.",
-        tools: ["Canva", "Adobe Illustrator", "Diseño vectorial", "TFG"]
-    },
-    {
-        img: "Inicio.png",
-        title: "Landing Page · Canva",
-        desc: "Diseñé una landing page como propuesta previa a su desarrollo real, aplicando principios de usabilidad, jerarquía visual y experiencia de usuario. Definí una estructura clara respetando la identidad visual de la marca.",
-        tools: ["Canva","Diseño web", "Identidad visual"]
-    }
-];
+      function openMenu() {
+        setMenuPosition(); // recalcula por si el header cambió de alto
+        hamburger.classList.add("open");
+        navLinks.classList.add("open");
+        navOverlay.classList.add("open");
+        document.body.classList.add("nav-open");
+      }
 
-const overlay = document.getElementById('modalOverlay');
-const modalClose = document.getElementById('modalClose');
+      function closeMenu() {
+        hamburger.classList.remove("open");
+        navLinks.classList.remove("open");
+        navOverlay.classList.remove("open");
+        document.body.classList.remove("nav-open");
+      }
 
-document.querySelectorAll('.open-modal-btn').forEach((btn, i) => {
-    btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const d = modalData[i];
-        document.getElementById('modalImg').src = d.img;
-        document.getElementById('modalImg').alt = d.title;
-        document.getElementById('modalTitle').textContent = d.title;
-        document.getElementById('modalDesc').textContent = d.desc;
-        document.getElementById('modalTools').innerHTML = d.tools.map(t => `<span>${t}</span>`).join('');
-        overlay.classList.add('open');
-    });
-});
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.contains("open") ? closeMenu() : openMenu();
+      });
 
-modalClose.addEventListener('click', () => overlay.classList.remove('open'));
-overlay.addEventListener('click', e => { if (e.target === overlay) overlay.classList.remove('open'); });
-document.addEventListener('keydown', e => { if (e.key === 'Escape') overlay.classList.remove('open'); });
-</script>
-</body>
+      navOverlay.addEventListener("click", closeMenu);
+
+      navLinks.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", closeMenu);
+      });
+
+      // ── MODAL PROYECTOS ──
+      const modalData = [
+        {
+          img: "assets/img/folleto flora (1).svg",
+          title: "Cartel Festival · Adobe Illustrator",
+          desc: "Diseñé un cartel publicitario en formato A3 con Adobe Illustrator y Adobe Photoshop, preparado para impresión (300 ppp, sangrado y márgenes), utilizando imágenes libres de derechos. Trabajé con un máximo de tres tintas planas, sin uso de CMYK, aplicando principios de composición y coherencia tipográfica.",
+          tools: [
+            "Adobe Illustrator",
+            "Adobe Photoshop",
+            "Impresión A3",
+            "Tintas planas",
+          ],
+        },
+        {
+          img: "assets/img/Cream and Grey Elegant Aesthetic Minimal Brand Board A4 Document.png",
+          title: "Manual Identidad Corporativa · Canva · Freepik · Photoshop",
+          desc: "Desarrollé una propuesta de manual de identidad corporativa para una marca, definiendo su personalidad, valores y tono de comunicación. Creé el logotipo y sus variantes, establecí una paleta de colores corporativos y seleccioné tipografías coherentes.",
+          tools: ["Canva", "Freepik", "Adobe Photoshop", "Branding"],
+        },
+        {
+          img: "assets/img/flyer vertical cartel poster promocion donuts divertido colorido rosa.png",
+          title: "Cartel Promocional · Canva",
+          desc: "Diseñé un cartel promocional utilizando Canva, aplicando principios básicos de composición y jerarquía visual para crear una pieza clara y atractiva. Adapté el diseño a formato de impresión, cuidando la disposición de los elementos, la tipografía y el uso del color.",
+          tools: ["Canva", "Composición visual", "Jerarquía tipográfica"],
+        },
+        {
+          img: "assets/img/all natural.png",
+          title: "Packaging · Canva",
+          desc: "Diseñé el packaging de una marca desde cero, definiendo identidad visual, ingredientes y etiquetado, siguiendo un manual corporativo para asegurar coherencia en colores, tipografía y estilo.",
+          tools: [
+            "Canva",
+            "Identidad de marca",
+            "Etiquetado",
+            "Manual corporativo",
+          ],
+        },
+        {
+          img: "assets/img/TARJETA EMPRESA_Mesa de trabajo 1.svg",
+          title: "Tarjetas de Visita Corporativas · Adobe Illustrator",
+          desc: "Diseñé en Adobe Illustrator tarjetas de visita a doble cara, aplicando los principios de contraste, repetición, proximidad y alineación, siguiendo un manual de identidad visual. Formato estándar 85×55mm en CMYK, con sangrado, márgenes y retícula para impresión profesional.",
+          tools: [
+            "Adobe Illustrator",
+            "CMYK",
+            "Formato 85×55mm",
+            "Identidad visual",
+          ],
+        },
+        {
+          img: "assets/img/Banner Horizontal Moda Moderno Blanco y Beige.png",
+          title: "Banner · Canva · Adobe Photoshop",
+          desc: "Diseñé un banner para una tienda digital, aplicando principios de composición visual y jerarquía tipográfica. Mantuve coherencia con la identidad visual de la marca respetando su paleta de colores corporativos.",
+          tools: ["Canva", "Adobe Photoshop", "Diseño digital", "Branding"],
+        },
+        {
+          img: "assets/img/1.png",
+          title: "Logotipo de Marca · Canva · Adobe Illustrator",
+          desc: "Diseñé el logotipo para mi TFG desarrollando una identidad visual desde cero, aplicando principios de simplicidad, equilibrio y legibilidad. Construido en formato vectorial para garantizar escalabilidad en distintos soportes.",
+          tools: ["Canva", "Adobe Illustrator", "Diseño vectorial", "TFG"],
+        },
+        {
+          img: "assets/img/Inicio.png",
+          title: "Landing Page · Canva",
+          desc: "Diseñé una landing page como propuesta previa a su desarrollo real, aplicando principios de usabilidad, jerarquía visual y experiencia de usuario. Definí una estructura clara respetando la identidad visual de la marca.",
+          tools: ["Canva", "Diseño web", "Identidad visual"],
+        },
+      ];
+
+      const overlay = document.getElementById("modalOverlay");
+      const modalClose = document.getElementById("modalClose");
+
+      document.querySelectorAll(".open-modal-btn").forEach((btn, i) => {
+        btn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const d = modalData[i];
+          document.getElementById("modalImg").src = d.img;
+          document.getElementById("modalImg").alt = d.title;
+          document.getElementById("modalTitle").textContent = d.title;
+          document.getElementById("modalDesc").textContent = d.desc;
+          document.getElementById("modalTools").innerHTML = d.tools
+            .map((t) => `<span>${t}</span>`)
+            .join("");
+          overlay.classList.add("open");
+        });
+      });
+
+      modalClose.addEventListener("click", () =>
+        overlay.classList.remove("open"),
+      );
+      overlay.addEventListener("click", (e) => {
+        if (e.target === overlay) overlay.classList.remove("open");
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") overlay.classList.remove("open");
+      });
+    </script>
+  </body>
 </html>
