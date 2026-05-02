@@ -699,6 +699,11 @@
       const navOverlay = document.getElementById("navOverlay");
 
       function setMenuPosition() {
+        if (window.innerWidth > 768) {
+          navLinks.style.top = "";
+          navLinks.style.height = "";
+          return;
+        }
         const headerHeight = document
           .querySelector("header")
           .getBoundingClientRect().height;
