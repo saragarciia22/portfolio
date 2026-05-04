@@ -28,4 +28,4 @@ Abre `index.html` en tu navegador web.
 
 ## Contacto
 
-Sara García - [Tu email o LinkedIn]
+Sara García - saragarcialopez2004@gmail.com
